@@ -2,8 +2,8 @@
 	<div>
 		<!-- About me -->
 		<div class="container mx-auto">
-            <AboutMe/>
-    	</div>
+			<AboutMe />
+		</div>
 
 
 	</div>
