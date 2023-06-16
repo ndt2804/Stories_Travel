@@ -3,7 +3,6 @@ import User, { IUser } from '../models/User';
 import bcrypt from 'bcrypt';
 
 
-
 export async function registerUser(req: Request, res: Response) {
     try {
         const { name, email, password, image_url } = req.body;

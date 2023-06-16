@@ -6,7 +6,6 @@ import useRoutes from '../routes/useRoutes'
 dotenv.config();
 
 const app = express()
-const port = 3001;
 app.use(express.json());
 
 async function connect() {
